@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://instant-username-live.vercel.app/sitemap.xml
