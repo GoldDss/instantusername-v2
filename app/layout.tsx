@@ -72,6 +72,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-1SZC542XTJ');
           `}
         </Script>
+
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4677673628122980"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
