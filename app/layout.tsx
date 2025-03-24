@@ -1,4 +1,4 @@
-import "../globals.css";
+import "@/styles/globals.css"; // ✅ bon chemin propre et compatible Vercel
 import { Inter } from "next/font/google";
 import Script from "next/script";
 
